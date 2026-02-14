@@ -10,8 +10,8 @@ Overall, the project helps in organizing and monitoring courier services effecti
 
 Project Structure:
 
-<img width="538" height="1038" alt="image" src="https://github.com/user-attachments/assets/14eeb7f9-e296-4208-98f6-6688715812ec" />
-<img width="849" height="107" alt="image" src="https://github.com/user-attachments/assets/197fd290-8dce-4438-ac03-0707ffc5d1c9" />
+<img width="538" height="500" alt="image" src="https://github.com/user-attachments/assets/14eeb7f9-e296-4208-98f6-6688715812ec" />
+<img width="538" height="500" alt="image" src="https://github.com/user-attachments/assets/197fd290-8dce-4438-ac03-0707ffc5d1c9" />
 
 
 Add Courier:
