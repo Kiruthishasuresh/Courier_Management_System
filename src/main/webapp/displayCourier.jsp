@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-Courier Details:
+
 <% CourierBean cb=(CourierBean)request.getAttribute("view_record");
 String message=(String)request.getAttribute("message");
 %>
@@ -18,14 +18,30 @@ String message=(String)request.getAttribute("message");
 <%
     } else {
 %>
-<h3>CourierId:<%= cb.getCourierId() %></h3>
-<h3>SenderName:<%= cb.getSenderName() %></h3>
-<h3>ReceiverName:<%= cb.getReceiverName() %></h3>
-<h3>CourierItem:<%= cb.getCourierItem() %></h3>
-<h3>ShipDate:<%= cb.getShipDate() %></h3>
-<h3>DeliveryDate:<%= cb.getDeliveryDate() %></h3>
-<h3>Status:<%= cb.getStatus() %></h3>
-<h3>Remarks:<%= cb.getRemarks() %></h3>
+Courier Details:
+<table border="1">
+    <tr>
+        <th>Courier ID</th>
+        <th>Sender Name</th>
+        <th>Receiver Name</th>
+        <th>Courier Item</th>
+        <th>Ship Date</th>
+        <th>Delivery Date</th>
+        <th>Status</th>
+        <th>Remarks</th>
+    </tr>
+    <tr>
+        <td><%= cb.getCourierId() %></td>
+        <td><%= cb.getSenderName() %></td>
+        <td><%= cb.getReceiverName() %></td>
+        <td><%= cb.getCourierItem() %></td>
+        <td><%= cb.getShipDate() %></td>
+        <td><%= cb.getDeliveryDate() %></td>
+        <td><%= cb.getStatus() %></td>
+        <td><%= cb.getRemarks() %></td>
+    </tr>
+</table>
+<br>
 <%
 }
 %>
